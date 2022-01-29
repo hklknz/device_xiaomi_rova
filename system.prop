@@ -15,6 +15,12 @@ dalvik.vm.image-dex2oat-threads=4
 debug.hwui.renderer=skiagl
 renderthread.skia.reduceopstasksplitting=true
 
+# Audio
+ro.config.media_vol_default=8
+ro.config.media_vol_steps=25
+ro.config.vc_call_vol_default=5
+ro.config.vc_call_vol_steps=6
+
 # fastbootd
 ro.fastbootd.available=true
 
