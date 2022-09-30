@@ -129,6 +129,9 @@ TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/proton-c
 TARGET_KERNEL_ADDITIONAL_FLAGS := LLVM=1 \
     HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 
+# IPA
+USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
+
 # Media
 USE_DEVICE_SPECIFIC_MEDIA := true
 DEVICE_SPECIFIC_MEDIA_PATH := $(DEVICE_PATH)/qcom-caf/media
