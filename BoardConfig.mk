@@ -127,7 +127,7 @@ TARGET_KERNEL_VERSION := 4.9
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := proton
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/proton-clang
-TARGET_KERNEL_ADDITIONAL_FLAGS := LLVM=1 \
+TARGET_KERNEL_ADDITIONAL_FLAGS := LLVM=1 LLVM_IAS=1  \
     HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 
 # IPA
